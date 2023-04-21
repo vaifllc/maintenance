@@ -1,5 +1,5 @@
 function checkMaintenance(completion) {
-    const url = 'https://vaif-r2-maintenance.web.app/maintenance-check.json';
+    const url = 'https://vaifllc.github.io/maintenance/maintenance-mode.json';
     fetch(url)
         .then(response => response.json())
         .then(data => {
